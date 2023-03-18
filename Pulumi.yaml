@@ -1,0 +1,11 @@
+name: pulumi-strapi
+runtime: nodejs
+description: An example that deploys Strapi headless CMS as a containerized web app on AWS with Pulumi.
+template:
+  description: A Strapi CMS deployed on AWS with Pulumi.
+  config:
+    aws:region:
+      description: The AWS region to deploy into
+      default: us-west-2
+config:
+  aws:region: us-west-2

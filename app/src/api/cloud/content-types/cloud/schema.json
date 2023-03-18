@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clouds",
+  "info": {
+    "singularName": "cloud",
+    "pluralName": "clouds",
+    "displayName": "Cloud",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}
