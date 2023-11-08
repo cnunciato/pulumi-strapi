@@ -11,10 +11,14 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.8.2",
-    "@strapi/plugin-users-permissions": "4.8.2",
-    "@strapi/plugin-i18n": "4.8.2",
-    "better-sqlite3": "8.0.1"
+    "@strapi/plugin-i18n": "4.15.2",
+    "@strapi/plugin-users-permissions": "4.15.2",
+    "@strapi/strapi": "4.15.2",
+    "better-sqlite3": "9.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1"
   },
   "author": {
     "name": "A Strapi developer"

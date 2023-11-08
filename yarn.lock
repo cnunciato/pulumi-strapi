@@ -185,13 +185,24 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==
 
-"@pulumi/aws@^5.0.0", "@pulumi/aws@^5.16.2":
+"@pulumi/aws@^5.16.2":
   version "5.31.0"
   resolved "https://registry.yarnpkg.com/@pulumi/aws/-/aws-5.31.0.tgz#feb0c72f558552ba13bcb4ea6debcf6dd5343798"
   integrity sha512-Qud/faQByDYuCvM4k+ljKN3ssGnS1mrtyIN0enCExRVbdEbxGrifgeFFjfPam+NmYNxaQkwRUonOOHm7dfpAlA==
   dependencies:
     "@pulumi/pulumi" "^3.0.0"
     aws-sdk "^2.0.0"
+    builtin-modules "3.0.0"
+    mime "^2.0.0"
+    read-package-tree "^5.2.1"
+    resolve "^1.7.1"
+
+"@pulumi/aws@^6.0.0":
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/@pulumi/aws/-/aws-6.8.0.tgz#856738deab91ce5a8a10c531402d69c496539e9d"
+  integrity sha512-V9Z755RrAFDaAfnEf545EXd3ejqBafURKvUY5IeTbPkJhA48yZIjCNW5qA7hMFurGGiFl0c/Bx2iNfR9D6EW6g==
+  dependencies:
+    "@pulumi/pulumi" "^3.0.0"
     builtin-modules "3.0.0"
     mime "^2.0.0"
     read-package-tree "^5.2.1"
@@ -208,10 +219,10 @@
     "@types/aws-lambda" "^8.10.23"
     mime "^2.0.0"
 
-"@pulumi/command@^0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@pulumi/command/-/command-0.7.1.tgz#a8baabd053a40eef38221c66c29b484dfce26d27"
-  integrity sha512-glPRnkR+jKK/av1CsarIxRuyRSaDiV8Ht4OV5qsTXHRFu8jGbbJrTXT8K1rq1ZImQioS4L/NL9BjhzNjZcKEfA==
+"@pulumi/command@^0.9.1":
+  version "0.9.2"
+  resolved "https://registry.yarnpkg.com/@pulumi/command/-/command-0.9.2.tgz#68875b68637da91709fc537292bbaece648a9acb"
+  integrity sha512-9RaGDiy8jFCiaarj4EOrMW/fVCM/AgBigzwM6CKzlR49x8UFiRDmKrXfEVHb8r2P9IpC4IaAZf5VbNNAHwN/rA==
   dependencies:
     "@pulumi/pulumi" "^3.0.0"
 
@@ -257,10 +268,10 @@
   resolved "https://registry.yarnpkg.com/@pulumi/query/-/query-0.3.0.tgz#f496608e86a18c3dd31b6c533408e2441c29071d"
   integrity sha512-xfo+yLRM2zVjVEA4p23IjQWzyWl1ZhWOGobsBqRpIarzLvwNH/RAGaoehdxlhx4X92302DrpdIFgTICMN4P38w==
 
-"@pulumi/random@^4.12.0":
-  version "4.12.0"
-  resolved "https://registry.yarnpkg.com/@pulumi/random/-/random-4.12.0.tgz#016ac615b48d215114b71b728e28b79f8d946135"
-  integrity sha512-xjFdCaKHymwj/pgrjoU2ZKMMFb+IWprnmGN2KmQ9ITdpJxqc9KvpNxuNnUrA1559UJfBJvuLjT3sbvU76M6etA==
+"@pulumi/random@^4.0.0":
+  version "4.14.0"
+  resolved "https://registry.yarnpkg.com/@pulumi/random/-/random-4.14.0.tgz#d0ff92594fff7e2f9e303ec193953002860eddd8"
+  integrity sha512-R9GgDbX/PR53C3a9V55FrOHwS3k7YEUr6bDnPcXI3M9PEELFIprYQRnO0oafpE4je5NRxY5a0qQ+TJQLpkhSkA==
   dependencies:
     "@pulumi/pulumi" "^3.0.0"
 
