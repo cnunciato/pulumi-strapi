@@ -53,17 +53,17 @@ All configuration settings are optional.
 
 | Key | Type | Example | Default |
 | --- | ---- | ------- | ------- |
-| `aws:region`  | `string` | `us-west-2` | `us-west-2` |
-| `dbName`  | `string` | `strapi` | `strapi` |
-| `dbUsername`  | `string` | `strapi` | `strapi` |
-| `dbType`  | `string` | `postgres` | `postgres` |
-| `dbInstanceClass`  | `string` | `db.t3.micro` | `db.t3.micro` |
-| `dbStorage`  | `number` | `20` | `20` |
-| `dbPassword`  | `string` |`StrongPass1` | [`new random.RandomPassword()`](https://www.pulumi.com/registry/packages/random/api-docs/randompassword/) |
-| `appPort`  | `number` | `1337` | `1337` |
-| `appCPU`  | `number` | `2048` | `2048` |
-| `appMemory`  | `number` | `4096` | `4096` |
+| `aws:region` | `string` | `us-west-2` | `us-west-2` |
+| `dbName` | `string` | `strapi` | `strapi` |
+| `dbUsername` | `string` | `strapi` | `strapi` |
+| `dbType` | `string` | `postgres` | `postgres` |
+| `dbInstanceClass` | `string` | `db.t3.micro` | `db.t3.micro` |
+| `dbStorage` | `number` | `20` | `20` |
+| `dbPassword` | `string` |`StrongPass1` | [`new random.RandomPassword()`](https://www.pulumi.com/registry/packages/random/api-docs/randompassword/) |
+| `appPort` | `number` | `1337` | `1337` |
+| `appCPU` | `number` | `2048` | `2048` |
+| `appMemory` | `number` | `4096` | `4096` |
 | `appUploadsPath`  | `string` | `public/uploads` | `public/uploads` |
-| `subdomain`  | `string` |`example.com` |  None |
-| `domain`  | `string` | `my-cms` | None |
-| `tags`  | `object` | `{ owner: "yourname" }` | None |
+| `subdomain` | `string` | `my-cms` | None |
+| `domain` | `string` | `example.com` | None |
+| `tags` | `object` | `{ owner: "yourname" }` | None |
