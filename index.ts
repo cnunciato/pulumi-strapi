@@ -8,7 +8,7 @@ type StrapiDBType = "mysql" | "postgres";
 const config = new pulumi.Config();
 const dbName = config.get("dbName") || "strapi";
 const dbUsername = config.get("dbUsername") || "strapi";
-const dbType: StrapiDBType = config.get("dbType") || "postgres";
+const dbType: StrapiDBType = config.get("dbType") || "mysql";
 const dbInstanceClass = config.get("dbInstanceClass") || "db.t3.micro";
 const dbStorage = config.getNumber("dbStorage") || 20;
 const dbPort = dbType === "mysql" ? 3306 : 5432;
