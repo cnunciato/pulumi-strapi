@@ -4,7 +4,7 @@ An example that deploys [Strapi CMS](https://strapi.io/) as a containerized web 
 
 * Deploys in a [VPC](https://aws.amazon.com/vpc/) (with public and private subnets) with [ECS Fargate](https://aws.amazon.com/fargate/) and [Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/)
 * Forwards logs to [CloudWatch](https://aws.amazon.com/cloudwatch/), streams CloudWatch logs to your terminal
-* Supports both [RDS](https://aws.amazon.com/rds/) MySQL and PostgreSQL (with PostgreSQL as the default)
+* Supports both [RDS](https://aws.amazon.com/rds/) MySQL and PostgreSQL (with MySQL as the default)
 * Stores your media (e.g., Strapi uploads) with [Amazon EFS](https://aws.amazon.com/efs/)
 * Supports custom domains and SSL certs with [Route 53](https://aws.amazon.com/route53/) and [ACM](https://aws.amazon.com/certificate-manager/)
 * Deploy from your laptop, in CI (e.g., GitHub Actions), or with [Pulumi Deployments](https://www.pulumi.com/product/pulumi-deployments/)
